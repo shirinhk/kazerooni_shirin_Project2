@@ -1,0 +1,233 @@
+body
+{
+  font-size: 16px;
+}
+
+h2
+{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 700;
+  margin:60px 40px 40px 20px;
+  font-size: 2.2em;
+  text-transform: uppercase;
+	letter-spacing: 0.8em;
+	color: #452926;
+}
+
+h3
+{
+	font-family: 'Spartan', sans-serif;
+	font-weight: 700;
+	margin:40px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+h5
+{
+	font-family: 'Spartan', sans-serif;
+	margin: 30px 40px 20px 40px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+p
+{
+	font-family: 'Spartan', sans-serif;
+	margin: 30px 40px 20px 40px;
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+
+ul li:first-child
+{
+	text-align: center;
+	color:#356a8a;
+}
+
+ul li:nth-child(3n)
+{
+	color:#356a8a;
+}
+
+/* Classes */
+
+.hidden
+{
+	display: none;
+}
+
+.firstDiv
+{
+	background-color: #dcd0ad;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.firstPic
+{
+	margin-top: 40px;
+}
+
+.firstText::first-letter
+{
+	color:#356a8a;
+	font-size: 7em;
+	float: left;
+	line-height: .9em;
+	font-family: 'Spartan', sans-serif;
+	font-weight: 500;
+	padding-right: 2px;
+}
+
+.firstText::first-line
+{
+	font-weight: 700;
+}
+
+.span
+{
+	color:#356a8a;
+}
+
+.secDiv
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #eee889;
+	margin-bottom: 20px;
+}
+
+.images
+{
+	flex-direction: column;
+}
+
+.secPic
+{
+		align-self: flex-start;
+		margin-top: 40px;
+		margin-right: 40px;
+}
+
+.secPic2
+{
+		align-self: flex-start;
+		margin-top: 20px;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		opacity:0.5;
+}
+
+.secText::first-line
+{
+		font-weight: 700;
+}
+
+.thirdDiv
+{
+	text-align: center;
+	background-color: #94cbd1;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.thirdPic
+{
+		margin-top: 40px;
+}
+
+.brewers
+{
+	letter-spacing: 1em;
+	color:#ffffff;
+}
+
+.thirdText::first-line
+{
+		font-weight: 700;
+}
+
+.thirdText2
+{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+	color:#ffffff;
+	line-height: 1.5em;
+}
+
+.fourthDiv
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #eda477;
+	margin-bottom: 20px;
+}
+
+.fourthPic
+{
+		align-self: flex-start;
+		margin-top: 130px;
+		margin-left: 40px;
+}
+
+
+.infected
+{
+	line-height: 1.5em;
+	letter-spacing: 0.5em;
+	color:#ffffff;
+}
+
+.fifthDiv
+{
+	background-color: #dcd0ad;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.fifthPic
+{
+	padding-top: 40px;
+}
+
+.conclusionsText::first-line
+{
+	font-weight: 700;
+}
+
+.span3
+{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+	color:#7b3116;
+	line-height: 2em;
+}
+
+.span3::before
+{
+content:"- - -";
+}
+
+.span3::after
+{
+content:"- - -";
+}
+
+
+/* IDs */
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1080px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
